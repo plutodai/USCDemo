@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "UCSIMClient.h"
 
 @interface AppDelegate ()
 

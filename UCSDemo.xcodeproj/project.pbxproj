@@ -14,6 +14,8 @@
 		4916E33B1B82CD2200D0C487 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4916E33A1B82CD2200D0C487 /* Images.xcassets */; };
 		4916E33E1B82CD2200D0C487 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4916E33C1B82CD2200D0C487 /* LaunchScreen.xib */; };
 		4916E34A1B82CD2200D0C487 /* UCSDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4916E3491B82CD2200D0C487 /* UCSDemoTests.m */; };
+		4916E3691B82CD5900D0C487 /* libucsimlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4916E3561B82CD5900D0C487 /* libucsimlib.a */; };
+		4916E36A1B82CD5900D0C487 /* libucstcplib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4916E3651B82CD5900D0C487 /* libucstcplib.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,24 @@
 		4916E3431B82CD2200D0C487 /* UCSDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UCSDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4916E3481B82CD2200D0C487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4916E3491B82CD2200D0C487 /* UCSDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCSDemoTests.m; sourceTree = "<group>"; };
+		4916E3561B82CD5900D0C487 /* libucsimlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libucsimlib.a; sourceTree = "<group>"; };
+		4916E3571B82CD5900D0C487 /* UCSConversation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCSConversation.h; sourceTree = "<group>"; };
+		4916E3581B82CD5900D0C487 /* UCSDiscussion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCSDiscussion.h; sourceTree = "<group>"; };
+		4916E3591B82CD5900D0C487 /* UCSDiscussionNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCSDiscussionNotification.h; sourceTree = "<group>"; };
+		4916E35A1B82CD5900D0C487 /* UCSImageMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCSImageMsg.h; sourceTree = "<group>"; };
+		4916E35B1B82CD5900D0C487 /* UCSIMClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCSIMClient.h; sourceTree = "<group>"; };
+		4916E35C1B82CD5900D0C487 /* UCSIMClientDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCSIMClientDelegate.h; sourceTree = "<group>"; };
+		4916E35D1B82CD5900D0C487 /* UCSIMDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCSIMDefine.h; sourceTree = "<group>"; };
+		4916E35E1B82CD5900D0C487 /* UCSMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCSMessage.h; sourceTree = "<group>"; };
+		4916E35F1B82CD5900D0C487 /* UCSMsgContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCSMsgContent.h; sourceTree = "<group>"; };
+		4916E3601B82CD5900D0C487 /* UCSNotificationMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCSNotificationMessage.h; sourceTree = "<group>"; };
+		4916E3611B82CD5900D0C487 /* UCSTextMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCSTextMsg.h; sourceTree = "<group>"; };
+		4916E3621B82CD5900D0C487 /* UCSUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCSUserInfo.h; sourceTree = "<group>"; };
+		4916E3631B82CD5900D0C487 /* UCSVoiceMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCSVoiceMsg.h; sourceTree = "<group>"; };
+		4916E3651B82CD5900D0C487 /* libucstcplib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libucstcplib.a; sourceTree = "<group>"; };
+		4916E3661B82CD5900D0C487 /* UCSTcpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCSTcpClient.h; sourceTree = "<group>"; };
+		4916E3671B82CD5900D0C487 /* UCSTcpClientDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCSTcpClientDelegate.h; sourceTree = "<group>"; };
+		4916E3681B82CD5900D0C487 /* UCSTcpDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCSTcpDefine.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4916E3691B82CD5900D0C487 /* libucsimlib.a in Frameworks */,
+				4916E36A1B82CD5900D0C487 /* libucstcplib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +110,7 @@
 				4916E3371B82CD2200D0C487 /* Main.storyboard */,
 				4916E33A1B82CD2200D0C487 /* Images.xcassets */,
 				4916E33C1B82CD2200D0C487 /* LaunchScreen.xib */,
+				4916E3541B82CD5900D0C487 /* IOS IMSDK */,
 				4916E32D1B82CD2200D0C487 /* Supporting Files */,
 			);
 			path = UCSDemo;
@@ -117,6 +140,47 @@
 				4916E3481B82CD2200D0C487 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4916E3541B82CD5900D0C487 /* IOS IMSDK */ = {
+			isa = PBXGroup;
+			children = (
+				4916E3551B82CD5900D0C487 /* IMSDK */,
+				4916E3641B82CD5900D0C487 /* TCPSDK */,
+			);
+			path = "IOS IMSDK";
+			sourceTree = "<group>";
+		};
+		4916E3551B82CD5900D0C487 /* IMSDK */ = {
+			isa = PBXGroup;
+			children = (
+				4916E3561B82CD5900D0C487 /* libucsimlib.a */,
+				4916E3571B82CD5900D0C487 /* UCSConversation.h */,
+				4916E3581B82CD5900D0C487 /* UCSDiscussion.h */,
+				4916E3591B82CD5900D0C487 /* UCSDiscussionNotification.h */,
+				4916E35A1B82CD5900D0C487 /* UCSImageMsg.h */,
+				4916E35B1B82CD5900D0C487 /* UCSIMClient.h */,
+				4916E35C1B82CD5900D0C487 /* UCSIMClientDelegate.h */,
+				4916E35D1B82CD5900D0C487 /* UCSIMDefine.h */,
+				4916E35E1B82CD5900D0C487 /* UCSMessage.h */,
+				4916E35F1B82CD5900D0C487 /* UCSMsgContent.h */,
+				4916E3601B82CD5900D0C487 /* UCSNotificationMessage.h */,
+				4916E3611B82CD5900D0C487 /* UCSTextMsg.h */,
+				4916E3621B82CD5900D0C487 /* UCSUserInfo.h */,
+				4916E3631B82CD5900D0C487 /* UCSVoiceMsg.h */,
+			);
+			path = IMSDK;
+			sourceTree = "<group>";
+		};
+		4916E3641B82CD5900D0C487 /* TCPSDK */ = {
+			isa = PBXGroup;
+			children = (
+				4916E3651B82CD5900D0C487 /* libucstcplib.a */,
+				4916E3661B82CD5900D0C487 /* UCSTcpClient.h */,
+				4916E3671B82CD5900D0C487 /* UCSTcpClientDelegate.h */,
+				4916E3681B82CD5900D0C487 /* UCSTcpDefine.h */,
+			);
+			path = TCPSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -349,6 +413,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UCSDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UCSDemo/IOS",
+					IMSDK/IMSDK,
+					"$(PROJECT_DIR)/UCSDemo/IOS",
+					IMSDK/TCPSDK,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -359,6 +430,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UCSDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UCSDemo/IOS",
+					IMSDK/IMSDK,
+					"$(PROJECT_DIR)/UCSDemo/IOS",
+					IMSDK/TCPSDK,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
